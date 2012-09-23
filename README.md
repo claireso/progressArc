@@ -28,14 +28,14 @@ $("canvas").progressArc({
 * bgColor : the color of the background circle
 * strokeWidth : width of the stroke arc
 * data.start : the initial position of the arc 
-* cursor : boolean to enable the user to move the arc with the mouse (or finger) (default : true)
+* cursor : boolean to enable/disable the user to move the arc with the mouse (or finger) (default : true)
 
 ### Events
 You can dynamically update the position of the arc using the `setProgress` event:
 
 ```js
 var $canvas = $("canvas");
-$canvas.trigger('setProgress',[$(this).val()]);
+$canvas.trigger('setProgress',[60]);
 ```
 
 To know the current value of the arc, just listen the `change` event:
