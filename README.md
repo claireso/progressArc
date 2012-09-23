@@ -25,7 +25,7 @@ $("canvas").progressArc({
 
 ### Options
 * fgColor : the color of the arc
-* bgColor : the color of the bacjground circle
+* bgColor : the color of the background circle
 * strokeWidth : width of the stroke arc
 * data.start : the initial position of the arc 
 * cursor : boolean to enable the user to move the arc with the mouse (or finger) (default : true)
