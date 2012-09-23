@@ -8,3 +8,14 @@ The user can interact with the arc using his mouse or his finger. So you can use
 
 ## Usage
 
+``$("canvas").progressArc({
+    styles: {
+        fgColor : "#619fb9",
+        bgColor : "#333",
+        strokeWidth: 60
+    },
+    data: {
+        start:40
+    }
+});``
+
