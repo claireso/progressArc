@@ -121,12 +121,12 @@ a:hover {
 }
 
 body > div {
-    width:400px;
-    height:400px;
+    width:350px;
+    height:350px;
     position: fixed;
     top:50%;
     left:50%;
-    margin:-200px 0 0 -200px;
+    margin:-175px 0 0 -175px;
 }
 
 #cu {
@@ -138,7 +138,7 @@ body > div {
     left:0;
     right:0;
     bottom: 0;
-    line-height:400px;
+    line-height:350px;
     text-align: center;
 }
 
@@ -155,7 +155,7 @@ canvas {
 }
 
 input[type="range"]{
-    margin:2.5em 0 0;
+    margin:1.5em 0 0;
     width: 100%;
 }
 
@@ -211,6 +211,10 @@ header > div {
     -ms-transition:left 200ms ease;
     -o-transition:left 200ms ease;
     transition:left 200ms ease;
+    -webkit-overflow-scrolling : touch;
+    overflow:auto;
+    -webkit-box-shadow: 4px 4px 0 rgba(97, 159, 185, 1);
+    box-shadow: 4px 4px 0 rgba(97, 159, 185, 1);
 }
 
 .state-close > div {
