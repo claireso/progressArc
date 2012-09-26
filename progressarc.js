@@ -153,6 +153,7 @@
 
                 $doc.on(onMove, function(e){
                     if(flag){
+                        e.preventDefault();
                         cursorCoords = getCursorPos(e);
                         self._drawProgress(cursorCoords);
                     }

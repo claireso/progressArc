@@ -18,17 +18,13 @@
         
         $canvas.on('change',function(e, current){
             currentVal.innerHTML = current;
+            $range.val(current);
         });
 
         $range.on('change',function(){
             $canvas.trigger('setProgress',[$(this).val()]);
         });
 
-        if('ontouchstart' in window){
-            document.addEventListener('touchmove',function(e){
-                e.preventDefault();
-            });
-        }
 
         //external links
         $('a').on('click',function(e){
